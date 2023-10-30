@@ -7,8 +7,14 @@ export default function RightHeader(){
         <div className="RightHeader">
             <Menu item="Home"></Menu>
             <Menu item="About"></Menu>
-            <Menu item="Courses"></Menu>
-            <Menu item="Blog"></Menu>
+            <div>
+                <Menu item="Courses    "></Menu>
+                <img src="Vector.svg" alt="img" />
+            </div>
+            <div>
+                <Menu item="Blog    "></Menu>
+                <img src="Vector.svg" alt="img" />
+            </div>
             <button className="Text" style={{color:"#FFF"}}>contact us</button>
         </div>
     );
