@@ -3,6 +3,9 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Course from './components/Course';
 import Register from './components/Register';
+import Info from './components/Info';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -11,6 +14,8 @@ function App() {
       <Main></Main>
       <Course></Course>
       <Register></Register>
+      <Info></Info>
+      <Footer></Footer>
     </div>
   );
 }
