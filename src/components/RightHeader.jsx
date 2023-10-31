@@ -15,7 +15,7 @@ export default function RightHeader(){
                 <Menu item="Blog    "></Menu>
                 <img src="Vector.svg" alt="img" />
             </div>
-            <button className="Text" style={{color:"#FFF"}}>contact us</button>
+            <button className="HeaderButton Text" style={{color:"#FFF"}}>contact us</button>
         </div>
     );
 }

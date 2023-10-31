@@ -1,18 +1,12 @@
-export function BigText({Text}){
+export function BigText(props){
     return(
-            <span>{Text}</span>
+            <span className={props.className} style={{fontSize:"48px"}}>{props.Text}</span>
     );
 }
 
-export function SmallText({Text}){
+export function SmallText(props){
     return(
-            <p>{Text}</p>
-    );
-}
-
-export function Button({Text}){
-    return(
-        <button>{Text}</button>
+            <p className={props.className} style={{color: "rgba(0, 0, 0, 0.46)"}}>{props.Text}</p>
     );
 }
 
