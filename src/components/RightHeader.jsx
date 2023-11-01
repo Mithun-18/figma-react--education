@@ -5,14 +5,14 @@ function Menu(props){
 export default function RightHeader(){
     return(
         <div className="RightHeader">
-            <Menu item="Home"></Menu>
-            <Menu item="About"></Menu>
+            <Menu item="Home"/>
+            <Menu item="About"/>
             <div>
-                <Menu item="Courses    "></Menu>
+                <Menu item="Courses    "/>
                 <img src="Vector.svg" alt="img" />
             </div>
             <div>
-                <Menu item="Blog    "></Menu>
+                <Menu item="Blog    "/>
                 <img src="Vector.svg" alt="img" />
             </div>
             <button className="HeaderButton Text" style={{color:"#FFF"}}>contact us</button>

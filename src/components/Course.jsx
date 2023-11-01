@@ -5,13 +5,13 @@ export default function Course() {
   return (
     <div className="Course">
       <div style={{ width: "50%", overflow: "hidden", display: "flex" }}>
-        <Image src="image 3.png" alt="img" width="480px" height="379px"></Image>
+        <Image src="image 3.png" alt="img" width="480px" height="379px"/>
       </div>
       <div style={{ width: "50%", textAlign: "initial" }}>
         <BigText
           Text={["Welcome to the", <br />, " online centers"]}
           className="Text"
-        ></BigText>
+        />
         <ul
           className="Text"
           style={{

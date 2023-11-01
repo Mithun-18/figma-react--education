@@ -4,8 +4,8 @@ import './style.css';
 export default function Header(){
     return (
         <div className="Header">
-            <LeftHeader> </LeftHeader>
-            <RightHeader> </RightHeader>
+            <LeftHeader/> 
+            <RightHeader/>
         </div>
     );
 }
