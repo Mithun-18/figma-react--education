@@ -6,15 +6,13 @@ export default function Main() {
     <div className="Main">
       <div style={{ width: "50%", textAlign: "initial" }} className="LeftMain">
         <BigText
-          Text={["Start learning", <br />, " with us now"]}
+          Text={"Start learning \n with us now"}
           className="Text"
         />
         <SmallText
-          Text={[
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            <br />,
-            "Ipsa laboriosam  voluptates sed beatae?",
-          ]}
+          Text={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n Ipsa laboriosam  voluptates sed beatae?"
+          }
           className="Text"
         />
         <button className="MainButton Text" style={{ color: "#FFF" }}>

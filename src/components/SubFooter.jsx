@@ -29,9 +29,9 @@ export function Links() {
           fontWeight: 400,
         }}
       >
-        <li>Our Projects</li>
-        <li>FAQ’s</li>
-        <li>News and Updates</li>
+        <li key={'1'}>Our Projects</li>
+        <li key={'2'}>FAQ’s</li>
+        <li key={'3'}>News and Updates</li>
       </ul>
     </div>
   );

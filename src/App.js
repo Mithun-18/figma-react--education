@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header> <h1>test</h1></Header>
       <Main/>
       <Course/>
       <Register/>

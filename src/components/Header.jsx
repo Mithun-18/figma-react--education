@@ -1,11 +1,13 @@
+
+import { HeaderLayout } from "./HeaderLayout";
 import LeftHeader from "./LeftHeader";
 import RightHeader from "./RightHeader";
 import './style.css';
-export default function Header(){
+export default function Header({children}){
     return (
-        <div className="Header">
-            <LeftHeader/> 
+        <HeaderLayout>            
+            <LeftHeader/>
             <RightHeader/>
-        </div>
+        </HeaderLayout>
     );
 }

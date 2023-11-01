@@ -9,7 +9,7 @@ export default function Course() {
       </div>
       <div style={{ width: "50%", textAlign: "initial" }}>
         <BigText
-          Text={["Welcome to the", <br />, " online centers"]}
+          Text={"Welcome to the \n online centers"}
           className="Text"
         />
         <ul
@@ -24,9 +24,9 @@ export default function Course() {
             justifyContent: "space-between",
           }}
         >
-          <li>Start learning from your experience</li>
-          <li>Enhance your skills with us now</li>
-          <li>Do your favorite course</li>
+          <li key={'1'}>Start learning from your experience</li>
+          <li key={'2'}>Enhance your skills with us now</li>
+          <li key={'3'}>Do your favorite course</li>
         </ul>
       </div>
     </div>
