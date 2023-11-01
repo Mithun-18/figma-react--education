@@ -51,6 +51,10 @@
     line-height: normal;
 }
 
+.TextActive {
+    color: #FFF;
+}
+
 .Heading {
     color: #000;
     font-family: Jim Nightshade;
@@ -112,3 +116,14 @@ button,input {
     justify-content: space-between;
     align-items: flex-end;
 }
+
+.menuItemIcon{
+    transition: transform .7s ease-in-out;
+}
+
+.menuItemIconHover{
+    transform: rotate(180deg);
+}
+
+
+
