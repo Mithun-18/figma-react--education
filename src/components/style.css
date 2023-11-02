@@ -125,5 +125,20 @@ button,input {
     transform: rotate(180deg);
 }
 
+.container{
+    width:320px;
+    height: 320px;
+    overflow: hidden;
 
+}
+
+.container img{
+    width:100%;
+    height: 100%;
+    transition: transform .7s ease-in-out;
+}
+
+.hover{
+    transform: scale(1.3);
+}
 

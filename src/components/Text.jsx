@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 export function BigText(props) {
   return (
@@ -16,14 +17,27 @@ export function SmallText(props) {
 }
 
 export function Image(props) {
-  return (
+  const [scale, setScale] = useState(0);
 
+  function Mousein() {
+    setScale(1);
+  }
+
+  function MouseOut() {
+    setScale(0);
+  }
+
+  return (
+    <div className="container">
       <img
         src={props.src}
-        alt="{props.alt}"
-        width={props.width}
-        height={props.height}
-
+        alt={props.alt}
+        onMouseEnter={Mousein}
+        onMouseLeave={MouseOut}
+        className={scale ? "hover":""}
+        // width={props.width}
+        // height={props.height}
       />
+    </div>
   );
 }
